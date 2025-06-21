@@ -70,7 +70,7 @@ def wake_word():
     while True:
         text = taking_command()
         if 'friday' in text.lower():
-            responding("Hello master Ansh, what can i do for you")
+            responding("Hello captain, what can i do for you")
             return
 
 if __name__=="__main__":
