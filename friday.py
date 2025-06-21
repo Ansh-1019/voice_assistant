@@ -41,7 +41,7 @@ def function():
        responding("current time is "+time)
 
     elif 'play' in audio:
-        song= audio.replace('play','')
+        song= audio.replace('play','').strip()
         responding("playing"+song)
         pywhatkit.playonyt(song)
     
@@ -62,9 +62,12 @@ def function():
         responding("today's date is "+date)
         
     elif 'google' in audio:
-        data= audio.replace('google','')
+        data= audio.replace('google','').strip()
         responding("googling"+data)
         pywhatkit.search(data)
+
+    elif audio is None:
+        return
 
 def wake_word():
     while True:
