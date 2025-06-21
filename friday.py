@@ -33,12 +33,13 @@ def responding(text):
 
 def function():
     audio=taking_command()
-    audio=audio.lower()
 
     if audio is None:
         return
 
-    elif 'time' in audio:
+    audio=audio.lower()
+
+    if 'time' in audio:
        time= datetime.datetime.now().strftime('%I:%M %p')
        print("current time is "+time)
        responding("current time is "+time)
