@@ -73,7 +73,7 @@ def function():
 def wake_word():
     while True:
         text = taking_command()
-        if 'friday' in text.lower():
+        if text and 'friday' in text.lower():
             responding("Hello captain, what can i do for you")
             return
 
