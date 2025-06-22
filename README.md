@@ -1,6 +1,16 @@
-# 🧠 Voice Assistant – Friday
+# 🗣️ Voice Assistant – Friday
 
-A beginner-friendly Python voice assistant that listens, understands, and responds to your voice commands. This project was built to explore speech recognition, text-to-speech, and smart command execution in Python.
+A beginner-friendly Python voice assistant that listens, understands, and responds to your voice commands.  
+This project was built to explore **speech recognition**, **text-to-speech**, and **smart command execution** in Python.
+
+---
+
+## 🚀 Getting Started
+
+To run the assistant:
+
+```bash
+python friday.py
 
 ## 🚀 Features
 
@@ -22,4 +32,10 @@ A beginner-friendly Python voice assistant that listens, understands, and respon
 - `pyjokes` – Random jokes for fun  
 
 ## 🗂️ Project Structure
+ voice_assistant/
+├── friday.py # Main assistant logic
+├── stt.py # (Optional) Speech-to-text module
+├── tts.py # (Optional) Text-to-speech module
+├── combine.py # (Optional) Testing combined features
+└── README.md # Project overview and setup instructions
 
