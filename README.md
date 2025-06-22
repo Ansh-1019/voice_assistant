@@ -22,13 +22,11 @@ A beginner-friendly Python voice assistant that listens, understands, and respon
 - `pyjokes` – Random jokes for fun  
 
 ## 🗂️ Project Structure
- voice_assistant/
-├── friday.py      # ✅ Main entry file
-├── stt.py         # Speech-to-text components
-├── tts.py         # Text-to-speech components
-├── combine.py     # (Optional) Experimental code merging features
-└── README.md
-
+* `friday.py`: The main entry point for running the voice assistant.
+* `stt.py`: Contains modules and functions related to Speech-to-Text conversion.
+* `tts.py`: Contains modules and functions related to Text-to-Speech conversion.
+* `combine.py`: (Optional) This file is for experimental code merging features.
+* `README.md`: This file, providing an overview and instructions for the project.
 ---
 
 ## 🚀 Getting Started
