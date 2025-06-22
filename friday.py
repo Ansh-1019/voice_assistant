@@ -10,7 +10,7 @@ def taking_command():
 
     with sr.Microphone() as source:
         print("Calibrating background noise...")
-        r.adjust_for_ambient_noise(source,duration=1)
+        r.adjust_for_ambient_noise(source,duration=0.3)
         print("Listening...")
         audio = r.listen(source)
     try:
