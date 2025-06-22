@@ -23,13 +23,18 @@ A beginner-friendly Python voice assistant that listens, understands, and respon
 
 ## 🗂️ Project Structure
  voice_assistant/
-├── friday.py # Main assistant logic
-├── stt.py # (Optional) Speech-to-text module
-├── tts.py # (Optional) Text-to-speech module
-├── combine.py # (Optional) Testing combined features
-└── README.md # Project overview and setup instructions
+├── friday.py      # ✅ Main entry file
+├── stt.py         # Speech-to-text components
+├── tts.py         # Text-to-speech components
+├── combine.py     # (Optional) Experimental code merging features
+└── README.md
 
-## ▶️ Run the Assistant
+---
+
+## 🚀 Getting Started
+
+To run the assistant:
+
+```bash
 python friday.py
--Say "Friday" to activate the assistant.
 
